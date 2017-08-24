@@ -18,13 +18,3 @@ spec = do
       strip "\t  foo bar\n" `shouldBe` "foo bar"
     it "is idempotent" $ property $
       \str -> strip str === strip (strip str)
-
-  describe "int number" $ do
-    let prop_should_be_failure x = (x <= 0) ==> False
-          where types = x :: Int
-    it "should be failure(1)" $ property prop_should_be_failure
-
-    let prop_should_be_failure2 x = x < 30
-          where types  = x :: Int
-    modifyMaxSuccess (const 1) $
-      it "should be failure(2)" $ (property prop_should_be_failure2)
