@@ -17,3 +17,8 @@ spec = do
       strip "\t  foo bar\n" `shouldBe` "foo bar"
     it "is idempotent" $ property $
       \str -> strip str === strip (strip str)
+
+  describe "int number" $ do
+    let prop_should_be_failure x = (x <= 0) ==> False
+          where types = x :: Int
+    it "should be failure" $ property prop_should_be_failure
