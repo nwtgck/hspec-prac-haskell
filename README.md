@@ -22,6 +22,14 @@ The import thing is this stack project is testable in Travis.
  
 [![Build Status](https://travis-ci.org/nwtgck/hspec-prac-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/hspec-prac-haskell)
 
+## Coverage
+
+This project uses [Coveralls](https://coveralls.io/) via [Stack HPC Coveralls (SHC)](https://github.com/rubik/stack-hpc-coveralls).
+
+[![Coverage Status](https://coveralls.io/repos/github/nwtgck/hspec-prac-haskell/badge.svg?branch=develop)](https://coveralls.io/github/nwtgck/hspec-prac-haskell?branch=develop)
+
+
+
 ## Links
 * Hackage - https://hackage.haskell.org/package/hspec
 * User's Manual - http://hspec.github.io/
