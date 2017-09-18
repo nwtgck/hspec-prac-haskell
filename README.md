@@ -1,7 +1,6 @@
 # HSpec Practice in Haskell
 
-[![Build Status](https://travis-ci.org/nwtgck/hspec-prac-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/hspec-prac-haskell) [![Coverage Status](https://coveralls.io/repos/github/nwtgck/hspec-prac-haskell/badge.svg?branch=develop)](https://coveralls.io/github/nwtgck/hspec-prac-haskell?branch=develop)
-
+[![Build Status](https://travis-ci.org/nwtgck/hspec-prac-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/hspec-prac-haskell) [![Coverage Status](https://coveralls.io/repos/github/nwtgck/hspec-prac-haskell/badge.svg?branch=master)](https://coveralls.io/github/nwtgck/hspec-prac-haskell?branch=master)
 
 ## How to run
 
